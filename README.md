@@ -16,7 +16,7 @@ TagID is a GenAI tagging tool which produces accurate textual descriptions of im
 TagID utilizes generative models to intelligently describe and annotate images. It can be extremely powerful in the following scenarios:
 
 - <ins>Image keywording</ins>: It provides quick and accurate keywords to facilitate storing of your images.
-- <ins>Image captioning</ins>: It provides precise short and long captions which can be use to help users understand what is inside images. 
+- <ins>Image captioning</ins>: It provides precise short and long captions which can be use to help users understand what is the message of the image. 
 
 ## Getting Started
 <a target="_blank" href="https://colab.research.google.com/drive/1D0yFV_xwSsWwmYHBJP07g2IlSDiZXbLv?usp=sharing">
@@ -32,7 +32,7 @@ To use any PiktID API, an access token is required.
 ```bash
 # Installation commands
 $ git clone https://github.com/piktid/tagid.git
-$ cd superid
+$ cd tagid
 $ pip install -r requirements.txt
 ```
 
