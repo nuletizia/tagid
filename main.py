@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--url', help='Image file url', type=str, default='https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+    parser.add_argument('--url', help='Image file url', type=str, default='https://images.piktid.com/frontend/studio/tagid/free-photo-of-young-woman-in-a-dress-holding-a-bouquet-and-standing-by-the-water.jpeg')
     parser.add_argument('--filepath', help='Input image file absolute path', type=str, default=None)
     parser.add_argument('--question', help='Question to ask about the image, e.g.: What is the subject of the image?', type=str, default=None)
 
